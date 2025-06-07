@@ -14,10 +14,12 @@ ScoutAI serves as a virtual hiring assistant that:
 
 ---
 Download LLaMA Model
+
 Place a quantized LLaMA model .gguf file inside the /models/ directory (llama-2-7b-chat.Q4_K_M.gguf).
 models/
 ├── llama_model.py
 ├── llama-2-7b-chat.Q4_K_M.gguf
 
 Run the App:
+
 streamlit run app.py
